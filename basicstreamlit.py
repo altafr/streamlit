@@ -7,7 +7,7 @@ spacy_streamlit.visualize(models, default_text)
 
 
 
-
+st.image('https://www.weetablet.com/wp-content/uploads/2016/02/Gif.gif')
 
 # Title
 st.title("Streamlit Crash Course")
@@ -34,7 +34,7 @@ st.error("This shows an error ")
 st.exception("NameError('name not defined')")
 
 # Getting Help Info From Python
-st.help(range)
+st.help(int)
 
 
 
